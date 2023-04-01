@@ -7,7 +7,7 @@ glew/2.2.0
 cmake_find_package_multi
 
 [options]
-glew:shared=False
+glew*:shared=False
 
 [imports]
 ./res/bindings, imgui_impl_glfw.cpp -> ../bindings
